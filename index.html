@@ -1,98 +1,102 @@
 <!DOCTYPE html>
-
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <html overflow:"none";> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
     <head>
         <title> Navanshi's Cookbook</title>
         <link rel ="icon" type="image/png" href ="./food.png">
          <style>
-            h1 {
+          
+           * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+              }
+           
+          html {
+            overflow-y: scroll; /* Forces consistent scrollbar presence */
+              }
+      
+        h1 {
             background-color: darksalmon; 
-                font-size: 60px;
-                text-align: center;
-                position: relative;
-                text-align:center;
-                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-style: bold;
-            }
+            font-size: 60px;
+            text-align: center;
+            position: relative;
+            text-align:center;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: bold;
+              }
 
+      .overlay-text {
+            position: absolute;
+            top:120%; 
+            left: 17%; 
+            transform: translate(-50%, -50%); 
+            background-color: whitesmoke; 
+            color: black; 
+            padding: 10px 20px; 
+            font-size: 30px; 
+            text-align: center;
+              }
+
+      .overlay-text2 {
+            position: absolute;
+            top:120%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            background-color: whitesmoke; 
+            color: black; 
+            padding: 10px 20px; 
+            font-size: 30px; 
+            text-align: center;
+              }
+
+      .overlay-text3 {
+            position: absolute;
+            top:120%; 
+            left: 84%;        
+            transform: translate(-50%, -50%); 
+            background-color: whitesmoke; 
+            color: black; 
+            padding: 10px 20px; 
+            font-size: 30px; 
+            text-align: center;
+              }
    
-
-
-    .overlay-text {
-  position: absolute;
-  top:120%; 
-  left: 17%; 
-  
-  transform: translate(-50%, -50%); 
-  background-color: whitesmoke; 
-  color: black; 
-  padding: 10px 20px; 
-  font-size: 30px; 
-  text-align: center;
-    }
-
-    .overlay-text2 {
-  position: absolute;
-  top:120%; 
-  left: 50%; 
-  
-  transform: translate(-50%, -50%); 
-  background-color: whitesmoke; 
-  color: black; 
-  padding: 10px 20px; 
-  font-size: 30px; 
-  text-align: center;
-    }
-
-    .overlay-text3 {
-  position: absolute;
-  top:120%; 
-  left: 84%; 
-  
-  transform: translate(-50%, -50%); 
-  background-color: whitesmoke; 
-  color: black; 
-  padding: 10px 20px; 
-  font-size: 30px; 
-  text-align: center;
-    }
-   
-    h2{
+        h2{
             background-color:beige;
             font-size: 45px;
             text-align: center;
+              }
 
-        }
-
-    .column {
-        float: left;
-        width: 33.33%;
-        padding: 0px;
-      }
-      .column2 {
-        float: right;
-        width: 33.33%;
-        padding: 0px;
-      }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 0px;
+              }
+           
+        .column2 {
+            float: right;
+            width: 33.33%;
+            padding: 0px;
+              }
       
       
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+              }
 
     
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+            }
 </style>
    
 
